@@ -1,0 +1,16 @@
+.address-form tr td {padding:8px 2px;}
+.address-list span{margin:0 10px;}
+.address-list{line-height:48px;}
+
+ul.user-control-nav > li > a{ padding:8px 18px;}
+ul.user-control-nav > li.nav-icon > a{border-top:none; border-bottom:dashed 1px #ddd;}
+ul.user-control-nav > li.nav-icon.active > a{border-bottom:none}
+ul.user-control-nav > li.nav-icon:last-child > a{ border-bottom:1px solid #DDD;}
+
+.nav-secondary > li.active > a,
+.nav-secondary > li.active > a:hover,
+.nav-secondary > li.active > a:focus,
+.nav-primary > li.active > a,
+.nav-primary > li.active > a:hover,
+.nav-primary > li.active > a:focus {background-color: #2277da; border-color: #2277da}
+.nav-secondary > li > a:hover, .nav-primary > li > a:hover {border-color: #3684e0}

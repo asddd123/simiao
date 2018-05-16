@@ -1,0 +1,60 @@
+.user-control-nav{margin-bottom: 20px;}
+.break-all {word-wrap: break-word; word-break: break-all;}
+.pager {margin:0px;}
+@media (max-width: 480px) { .hidden-xxs {display: none} .page {font-size: 12px}}
+@media (max-width: 400px) { .hidden-xxxs {display: none}}
+
+#reset {max-width: 450px; margin: 20px auto;}
+@media (max-width: 767px) {#reset {margin: 10px auto;} #reset .panel {margin: 20px auto; width: 100%;} #reset .panel-heading {padding: 0 0 10px 0;} #reset .panel-body {padding: 10px 0; min-height: inherit;} .panel-body > form {padding-right: 0;}}
+
+#bindForm{height: 280;}
+.nav-primary.nav-stacked > li.nav-heading{background-image:none;}
+
+#header {padding: 0; margin-bottom: 14px;}
+#headNav {min-height: 30px; line-height: 30px; padding: 0; margin-bottom: 8px;}
+#headNav, #headTitle {position: static; display: block;}
+#headNav > .row {margin: 0}
+#headTitle > .row, #headNav > .row {display: table; width: 100%; margin: 0}
+#headNav > .row > #siteNav,
+#headNav > .row > #siteSlogan,
+#headNav > .row > #searchbar,
+#headTitle > .row > #siteTitle,
+#headTitle > .row > #searchbar {display: table-cell; vertical-align: middle;}
+
+#headTitle {padding: 0;}
+#siteNav {text-align: right; float: right; display: inline-block !important;}
+@media (max-width: 767px){#siteNav {padding-left: 8px; padding-right: 8px;} }
+
+#searchbar {max-width: initial;}
+#searchbar > form {max-width: 200px; float: right;}
+#navbar .navbar-nav {width: 100%}
+#navbarCollapse {padding: 0;}
+#navbar .navbar-nav {margin: 0;}
+#navbar li.nav-item-searchbar {float: right;}
+#navbar li.nav-item-searchbar #searchbar > form {margin: 4px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul.user-control-nav > li > a{ padding:8px 18px;}
+ul.user-control-nav > li.nav-icon > a{border-top:none; border-bottom:dashed 1px #ddd;}
+ul.user-control-nav > li.nav-icon.active > a{border-bottom:none}
+ul.user-control-nav > li.nav-icon:last-child > a{ border-bottom:1px solid #DDD;}
+
+.nav-secondary > li.active > a,
+.nav-secondary > li.active > a:hover,
+.nav-secondary > li.active > a:focus,
+.nav-primary > li.active > a,
+.nav-primary > li.active > a:hover,
+.nav-primary > li.active > a:focus {background-color: #2277da; border-color: #2277da}
+.nav-secondary > li > a:hover, .nav-primary > li > a:hover {border-color: #3684e0}

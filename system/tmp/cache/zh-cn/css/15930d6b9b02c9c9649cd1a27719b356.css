@@ -1,0 +1,50 @@
+.text-price{font-weight:bold;font-size:14px;}
+.input-group span {cursor:pointer; background:inherit;}
+.btn-order-submit{margin-left:20px;border:none; border-radius:2px; background:#E43E41; font-size:16px; padding:8px 16px; color:#FFF; cursor:pointer;}
+
+#addressBox {padding: 0 8px;}
+#addressBox dl dt {margin: 5px 0;}
+#addressBox dl dt span a{font-weight:normal;}
+
+#payResult{margin:60px auto;}
+#payResult .alert{margin-bottom:0; padding:30px;}
+#payResult .alert .content{font-weight:bold; font-size:14px}
+.pager{margin:0;}
+.order-track {list-style: none; padding: 0;}
+.orderAction{width:250px;}
+
+#header {padding: 0; margin-bottom: 14px;}
+#headNav {min-height: 30px; line-height: 30px; padding: 0; margin-bottom: 8px;}
+#headNav, #headTitle {position: static; display: block;}
+#headNav > .row {margin: 0}
+#headTitle > .row, #headNav > .row {display: table; width: 100%; margin: 0}
+#headNav > .row > #siteNav,
+#headNav > .row > #siteSlogan,
+#headNav > .row > #searchbar,
+#headTitle > .row > #siteTitle,
+#headTitle > .row > #searchbar {display: table-cell; vertical-align: middle;}
+
+#headTitle {padding: 0;}
+#siteNav {text-align: right; float: right; display: inline-block !important;}
+@media (max-width: 767px){#siteNav {padding-left: 8px; padding-right: 8px;} }
+
+#searchbar {max-width: initial;}
+#searchbar > form {max-width: 200px; float: right;}
+#navbar .navbar-nav {width: 100%}
+#navbarCollapse {padding: 0;}
+#navbar .navbar-nav {margin: 0;}
+#navbar li.nav-item-searchbar {float: right;}
+#navbar li.nav-item-searchbar #searchbar > form {margin: 4px;}
+
+
+
+
+
+
+
+
+
+
+
+
+

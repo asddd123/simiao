@@ -1,0 +1,47 @@
+#articleHeader h2 {display:inline-block;}
+.headerSortUp {display:inline-block; margin-left: 5px; margin-right: 5px;color: #707070}
+.headerSortDown {display:inline-block; margin-left: 5px; margin-right: 5px;color: #707070}
+#articleHeader .header {display:inline-block; margin-left: 5px; margin-right: 5px;color: #707070}
+#articleHeader .header:after {font-family: ZenIcon;font-weight: normal;content: " \e6bd";font-size: 14px;}
+.headerSortUp:after {font-family: ZenIcon;font-weight: normal;content: " \e6b9";font-size: 14px;color: #2973EA;}
+.headerSortDown:after {font-family: ZenIcon;font-weight: normal;content: " \e6b8";font-size: 14px;color: #2973EA;}
+
+.item .media.pull-left{margin-right: 10px;}
+.item .media.pull-right{margin-left: 10px;}
+
+#header {padding: 0; margin-bottom: 14px;}
+#headNav {min-height: 30px; line-height: 30px; padding: 0; margin-bottom: 8px;}
+#headNav, #headTitle {position: static; display: block;}
+#headNav > .row {margin: 0}
+#headTitle > .row, #headNav > .row {display: table; width: 100%; margin: 0}
+#headNav > .row > #siteNav,
+#headNav > .row > #siteSlogan,
+#headNav > .row > #searchbar,
+#headTitle > .row > #siteTitle,
+#headTitle > .row > #searchbar {display: table-cell; vertical-align: middle;}
+
+#headTitle {padding: 0;}
+#siteNav {text-align: right; float: right; display: inline-block !important;}
+@media (max-width: 767px){#siteNav {padding-left: 8px; padding-right: 8px;} }
+
+#searchbar {max-width: initial;}
+#searchbar > form {max-width: 200px; float: right;}
+#navbar .navbar-nav {width: 100%}
+#navbarCollapse {padding: 0;}
+#navbar .navbar-nav {margin: 0;}
+#navbar li.nav-item-searchbar {float: right;}
+#navbar li.nav-item-searchbar #searchbar > form {margin: 4px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#block6{}#block6 .panel-heading{}
